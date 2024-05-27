@@ -211,6 +211,8 @@
          var currentQuestion = 1; // Текущий вопрос
     var questions = document.querySelectorAll('.question');
     var resultat = document.getElementById('resultat');
+    var varian1='Ваш ответ:'
+    var varian2='рекомендуемое направление:гд'
     function countAnswers() {
         var designerCount = 0;
         var programmerCount = 0;
@@ -224,6 +226,7 @@
                     designerCount++;
                 } else if (answers[0].value === 'Программист') {
                     programmerCount++;
+
                 } else if (answers[0].value === 'Лифтёр') {
                     liftierCount++;
                 }
@@ -232,16 +235,15 @@
 
         // Определяем, кто победил
         if (designerCount > programmerCount && designerCount > liftierCount) {
-            return ["Ваш результат:" , "Рекомендуемое направление: Графический дизайнер"];
+            return {
+                varian1:varian1,
+                varian2:varian2
+            };
         } else if (programmerCount > designerCount && programmerCount > liftierCount) {
             return 'Ваш результат:    Рекомендуемое направление: 1) Информационные системы и программирование 2)Обеспечение информационной безопасности автоматизированных систем 3) Сетевое и системное администрирование';
         } else {
             return'Ваш результат:    Рекомендуемое направление: 1)Компьютерные системы и комплексы 2)Техническая эксплуатация и обслуживание электрического и электромеханического оборудования 3)Электромеханик по лифтам'; 
         }
-        let [x,y] = countAnswers();
- 
-            console.log(x);
-            console.log(y);
     }
  
     // Функция для отображения результата
