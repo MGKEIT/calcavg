@@ -1,0 +1,276 @@
+<div class="proftect-contener-windous1" id="okno">
+    <form id="testForm" >
+        <!-- Вопрос 1 -->
+        <div id="question1" class="question active">
+            <div class="header">
+                <p class="header-text">1/12</p>
+            </div>
+        <label for="question1" class="questions"> Предположим, что после соответствующего обучения Вы сможете выполнить любую работу. Но если бы Вам пришлось выбирать только из двух возможностей, что бы Вы предпочли?</label><br>
+        <div class="answers">
+            <input type="radio" name="question1" value="Дизайнер" id="question1_Designer">
+            <label for="question1_Designer" class="answers1">Подбор или создание иллюстраций для  плакатов, книг, открыток</label><br>
+            <input type="radio" name="question1" value="Лифтёр" id="question1_Liftier">
+            <label for="question1_Liftier">Обслуживать машины, приборы (следить, регулировать)</label><br>
+        </div>
+        <button id="nextButton"onclick="switchToContainer('question2')">Далее →</button>
+        </div>
+        <!-- Вопрос 2 -->
+        <div id="question2" class="question">
+            <div class="header">
+                <p class="header-text">2/12</p>
+            </div>
+        <label for="question2" class="questions">Предположим, что после соответствующего обучения Вы сможете выполнить любую работу. Но если бы Вам пришлось выбирать только из двух возможностей, что бы Вы предпочли?</label><br>
+        <div class="answers">
+        <input type="radio" name="question2" value="Лифтёр" id="question2_Liftier">
+        <label for="question2_Liftier"> Обрабатывать материалы (дерево, ткань, металл и т.п.)</label><br>
+        <input type="radio" name="question2" value="Программист" id="question2_Programmist">
+        <label for="question2_Programmist">Составлять таблицы, схемы, программы </label><br>
+        </div>
+        <button id="prevButton" onclick="switchToContainer('question1')">← Назад</button>
+        <button id="nextButton"onclick="switchToContainer('question3')">Далее →</button>
+    
+    </div>
+        <!-- Вопрос 3 -->
+        <div id="question3" class="question">
+            <div class="header">
+                <p class="header-text">3/12</p>
+            </div>
+        <label for="question3" class="questions">Предположим, что после соответствующего обучения Вы сможете выполнить любую работу. Но если бы Вам пришлось выбирать только из двух возможностей, что бы Вы предпочли?</label><br>
+        <div class="answers">
+        <input type="radio" name="question3" value="Программист" id="question3_Programmist">
+        <label for="question3_Programmist">Обсуждать научно-популярные книги, статьи</label><br>
+        <input type="radio" name="question3" value="Дизайнер" id="question3_Designer">
+        <label for="question3_Designer">Обсуждать художественные книги (или пьесы, концерты)</label><br>
+        </div>
+        <button id="prevButton"onclick="switchToContainer('question2')">← Назад</button>
+        <button id="nextButton"onclick="switchToContainer('question4')">Далее →</button>
+    
+    </div>
+         <!-- Вопрос 4 -->
+        <div id="question4" class="question">
+            <div class="header">
+                <p class="header-text">4/12</p>
+            </div>
+        <label for="question4" class="questions">Предположим, что после соответствующего обучения Вы сможете выполнить любую работу. Но если бы Вам пришлось выбирать только из двух возможностей, что бы Вы предпочли?</label><br>
+        <div class="answers">
+        <input type="radio" name="question4" value="Дизайнер" id="question4_Designer">
+        <label for="question4_Designer">Копировать рисунки, изображения </label><br>
+        <input type="radio" name="question4" value="Лифтёр" id="question4_Liftier">
+        <label for="question4_Liftier">Управлять каким-либо грузовым (подъемным или транспортным) средством</label><br>
+        </div>
+        <button id="prevButton"onclick="switchToContainer('question3')">← Назад</button>
+        <button id="nextButton"onclick="switchToContainer('question5')">Далее → </button>
+    </div>
+        <!-- Вопрос 5 -->
+        <div id="question5" class="question">
+            <div class="header">
+                <p class="header-text">5/12</p>
+            </div>
+        <label for="question5" class="questions">Предположим, что после соответствующего обучения Вы сможете выполнить любую работу. Но если бы Вам пришлось выбирать только из двух возможностей, что бы Вы предпочли?</label><br>
+        <div class="answers">
+        <input type="radio" name="question5" value="Программист" id="question5_Programmist">
+        <label for="question5_Programmist">Выполнять вычисления, расчеты</label><br>
+        <input type="radio" name="question5" value="Дизайнер" id="question5_Designer">
+        <label for="question5_Designer">Оформлять выставки, витрины (или участвовать в подготовке пьес, концертов)</label><br>
+        </div>
+        <button id="prevButton"onclick="switchToContainer('question4')">← Назад</button>
+        <button id="nextButton"onclick="switchToContainer('question6')">Далее → </button>
+    </div>
+        <!-- Вопрос 6 -->
+        <div id="question6" class="question">
+            <div class="header">
+                <p class="header-text">6/12</p>
+            </div>
+        <label for="question6" class="questions">Предположим, что после соответствующего обучения Вы сможете выполнить любую работу. Но если бы Вам пришлось выбирать только из двух возможностей, что бы Вы предпочли?</label><br>
+        <div class="answers">
+        <input type="radio" name="question6" value="Лифтёр" id="question6_Liftier">
+        <label for="question6_Liftier">Ремонтировать вещи, изделия (одежду, технику)</label><br>
+        <input type="radio" name="question6" value="Программист" id="question6_Programmist">
+        <label for="question6_Programmist">Искать и исправлять ошибки в текстах, таблицах</label><br>
+        </div>
+        <button id="prevButton"onclick="switchToContainer('question5')">← Назад</button>
+        <button id="nextButton"onclick="switchToContainer('question7')">Далее →</button>
+    
+        </div>
+        <!-- Вопрос 7 -->
+        <div id="question7" class="question">
+            <div class="header">
+                <p class="header-text">7/12</p>
+            </div>
+        <label for="question7" class="questions">Предположим, что после соответствующего обучения Вы сможете выполнить любую работу. Но если бы Вам пришлось выбирать только из двух возможностей, что бы Вы предпочли?</label><br>
+        <div class="answers">
+        <input type="radio" name="question7" value="Дизайнер" id="question7_Designer">
+        <label for="question7_Designer">Наблюдать, изучать работу кружков художественной самодеятельности</label><br>
+        <input type="radio" name="question7" value="Программист" id="question7_Programmist">
+        <label for="question7_Programmist">Разбираться в чертежах, схемах, таблицах (проверять, уточнять, приводить в порядок)</label><br>
+        </div>
+        <button id="prevButton"onclick="switchToContainer('question6')">← Назад</button>
+        <button id="nextButton"onclick="switchToContainer('question8')">Далее →</button>
+    
+        </div>
+        <!-- Вопрос 8 -->
+        <div id="question8" class="question">
+            <div class="header">
+                <p class="header-text">8/12</p>
+            </div>
+        <label for="question8" class="questions">Предположим, что после соответствующего обучения Вы сможете выполнить любую работу. Но если бы Вам пришлось выбирать только из двух возможностей, что бы Вы предпочли?</label><br>
+        <div class="answers">
+        <input type="radio" name="question8" value="Лифтёр" id="question8_Liftier">
+        <label for="question8_Liftier">Обслуживать, налаживать медицинские приборы, аппараты</label><br>
+        <input type="radio" name="question8" value="Лифтёр" id="question8_Liftier">
+        <label for="question8_Liftier">Сборка или диагностика электромеханического оборудования</label><br>
+        </div>
+        <button id="prevButton"onclick="switchToContainer('question7')">← Назад</button>
+        <button id="nextButton"onclick="switchToContainer('question9')">Далее →</button>
+     
+        </div>
+        <!-- Вопрос 9 -->
+        <div id="question9" class="question">
+            <div class="header">
+                <p class="header-text">9/12</p>
+            </div>
+        <label for="question9" class="questions">Предположим, что после соответствующего обучения Вы сможете выполнить любую работу. Но если бы Вам пришлось выбирать только из двух возможностей, что бы Вы предпочли?</label><br>
+        <div class="answers">
+        <input type="radio" name="question9" value="Программист" id="question9_Programmist">
+        <label for="question9_Programmist">Заниматься черчением, копировать чертежи, карты</label><br>
+        <input type="radio" name="question9" value="Лифтёр" id="question9_Liftier">
+        <label for="question9_Liftier">Конструировать, проектировать новые виды промышленных изделий (машины, дома т.п.) </label><br>
+        </div>
+        <button id="prevButton"onclick="switchToContainer('question8')">← Назад</button>
+        <button id="nextButton"onclick="switchToContainer('question10')">Далее →</button>
+       
+        </div>
+        <!-- Вопрос 10 -->
+        <div id="question10" class="question">
+            <div class="header">
+                <p class="header-text">10/12</p>
+            </div>
+        <label for="question10" class="questions">Предположим, что после соответствующего обучения Вы сможете выполнить любую работу. Но если бы Вам пришлось выбирать только из двух возможностей, что бы Вы предпочли?</label><br>
+        <div class="answers">
+        <input type="radio" name="question10" value="Дизайнер" id="question10_Designer">
+        <label for="question10_Designer">Художественно описывать, изображать события (наблюдаемые и представляемые)</label><br>
+        <input type="radio" name="question10" value="Программист" id="question10_Programmist">
+        <label for="question10_Programmist">Составлять точные описания-отчеты о наблюдаемых явлениях, событиях, измеряемых объектах и др. </label><br>
+        </div>
+        <button id="prevButton"onclick="switchToContainer('question9')">← Назад</button>
+        <button id="nextButton"onclick="switchToContainer('question11')">Далее →</button>
+       
+    </div>
+        <!-- Вопрос 11 -->
+        <div id="question11" class="question">
+            <div class="header">
+                <p class="header-text">11/12</p>
+            </div>
+        <label for="question11" class="questions">Предположим, что после соответствующего обучения Вы сможете выполнить любую работу. Но если бы Вам пришлось выбирать только из двух возможностей, что бы Вы предпочли?</label><br>
+        <div class="answers">
+        <input type="radio" name="question11" value="Дизайнер" id="question11_Designer">
+        <label for="question11_Designer">Красить или расписывать стены помещений, поверхность изделий</label><br>
+        <input type="radio" name="question11" value="Лифтёр" id="question11_Liftier">
+        <label for="question11_Liftier">Осуществлять монтаж или сборку машин, приборов</label><br>
+        </div>
+        <button id="prevButton"onclick="switchToContainer('question10')">← Назад</button>
+        <button id="nextButton"onclick="switchToContainer('question12')">Далее →</button>
+     
+    </div>
+        <!-- Вопрос 12 -->
+        <div id="question12" class="question">
+            <div class="header">
+                <p class="header-text">12/12</p>
+            </div>
+        <label for="question12" class="questions">Предположим, что после соответствующего обучения Вы сможете выполнить любую работу. Но если бы Вам пришлось выбирать только из двух возможностей, что бы Вы предпочли?</label><br>
+        <div class="answers">
+        <input type="radio" name="question12" value="Программист" id="question12_Programmist">
+        <label for="question12_Programmist">Изготовлять по чертежам детали, изделия (машины, одежду), строить здания</label><br>
+        <input type="radio" name="question12" value="Дизайнер" id="question12_Designer">
+        <label for="question12_Designer">Играть на сцене, принимать участие в концертах</label><br>
+        </div>
+        <button id="prevButton"onclick="switchToContainer('question11')">← Назад</button>
+        <button type="submit" id="submitButton"onclick="switchToContainer('resultat')">Закончить тест</button>
+        </div>
+        <!--Отображение результата-->
+        <div id="resultat" class="question">
+        </div>
+        
+        
+    
+        
+      </form>
+      </div>
+
+
+<style>
+    .question{
+        display: none;
+    }
+    .active{
+        display: block;
+    }
+</style>
+
+      <script>
+         var currentQuestion = 1; // Текущий вопрос
+    var questions = document.querySelectorAll('.question');
+    var resultat = document.getElementById('resultat');
+    function countAnswers() {
+        var designerCount = 0;
+        var programmerCount = 0;
+        var liftierCount = 0;
+
+        // Перебираем все вопросы и считаем количество выбранных ответов
+        for (var i = 1; i <= 12; i++) {
+            var answers = document.querySelectorAll('input[name="question' + i + '"]:checked');
+            if (answers.length > 0) {
+                if (answers[0].value === 'Дизайнер') {
+                    designerCount++;
+                } else if (answers[0].value === 'Программист') {
+                    programmerCount++;
+                } else if (answers[0].value === 'Лифтёр') {
+                    liftierCount++;
+                }
+            }
+        }
+
+        // Определяем, кто победил
+        if (designerCount > programmerCount && designerCount > liftierCount) {
+            return ["Ваш результат:" , "Рекомендуемое направление: Графический дизайнер"];
+        } else if (programmerCount > designerCount && programmerCount > liftierCount) {
+            return 'Ваш результат:    Рекомендуемое направление: 1) Информационные системы и программирование 2)Обеспечение информационной безопасности автоматизированных систем 3) Сетевое и системное администрирование';
+        } else {
+            return'Ваш результат:    Рекомендуемое направление: 1)Компьютерные системы и комплексы 2)Техническая эксплуатация и обслуживание электрического и электромеханического оборудования 3)Электромеханик по лифтам'; 
+        }
+        let [x,y] = countAnswers();
+ 
+            console.log(x);
+            console.log(y);
+    }
+ 
+    // Функция для отображения результата
+    function showResult() {
+        var result = countAnswers();
+        document.getElementById('resultat').textContent = result;
+    }
+
+    // Обработчик события отправки формы
+    document.getElementById('testForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Предотвращаем стандартное поведение формы
+        showResult(); // Показываем результат
+    });
+    
+    function switchToContainer(id) {
+  // Скрываем все активные контейнеры, кроме текущего
+  questions.forEach(function(question) {
+    if (question.id !== id) {
+      question.classList.remove('active');
+    }
+  });
+
+  // Показываем выбранный контейнер
+  var targetContainer = document.getElementById(id);
+  targetContainer.classList.add('active');
+  
+}
+
+
+    // Вызываем функцию подсчета и отображения результата при загрузке страницы
+    showResult();
+      </script>
