@@ -1,1 +1,2 @@
 # calcavg
+test 1
