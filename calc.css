@@ -1,0 +1,124 @@
+    /*для подключения шрифта из библиотеки*/
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+    
+span {
+    cursor: pointer;
+
+}
+    
+span:hover {
+    color: #D64A28;
+    cursor: pointer;
+}
+
+body {
+    margin: 0px 0px;
+    padding-top: 20px;
+}
+    
+.content-wrapper{
+    display: flex;
+    font-family: "Manrope";
+    font-size: 20px;
+    font-weight: 600;
+    height: 270px;
+    /*background-color: #1357ff;*/
+    background: linear-gradient(#1357ff, #0DCAF0);
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+}
+  /*контейнер с оценками*/  
+.container_value {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    height: 80px;
+    gap: 40px;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+/*контейнер с кнопкой и средним баллом*/
+.itemCalc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    position: relative;
+    flex-wrap: nowrap;
+    padding-top: 60px;
+}
+
+p {
+    display: flex;
+    margin: 0;
+}
+
+p.output {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+p.span_width{
+    margin: 0;
+}
+/*кнопка рассчитать расположение*/
+button.calc {
+    display: flex;
+    padding: 1px 6px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+/*параметры кнопки без наведения*/
+.calc {
+    cursor: pointer;
+    border-radius: 20px;
+    border-width: 0px;
+    width: 110px;
+    height: 30px;
+    align-items: center;
+}
+/*кнопка при наведении*/
+.calc:hover {
+    background-color: #D64A28;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 20px;
+    border-width: 0px;
+    width: 110px;
+    height: 30px; 
+    align-items: center;
+
+}
+/*поле для ввода под оценкой*/
+.input {
+    width: 70px;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 0px;
+    text-align: center;
+    height: 40px;
+    font-family: "Manrope";
+}
+/*расположение элементов контейнера с оценками*/
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+/*кнопки плюс и минус*/
+.item div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+/*img{
+    height: 70px;
+    width: 70px;
+}*/
+
